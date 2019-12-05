@@ -10,10 +10,7 @@ spring:
     host: localhost
     port: 5672
     username: guest
-    password: guest
-  redis:
-    host: locahost
-    port: 6379   
+    password: guest   
 eureka:
   client:
     service-url:

@@ -1,6 +1,7 @@
 server:
   port: 9001  
 zuul:
+  sensitive-headers:
   routes:
     aaaaa:
       path: /myProduct/**
@@ -8,4 +9,5 @@ zuul:
       sensitiveHeaders:
 #    product: /myproduct/**
 #  ignored-patterns:
-#    - /**/product/listForOrder    
+#    - /**/product/listForOrder  
+   

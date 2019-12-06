@@ -1,2 +1,11 @@
 server:
-  port: 9001    
+  port: 9001  
+zuul:
+  routes:
+    aaaaa:
+      path: /myProduct/**
+      serviceId: product
+      sensitiveHeaders:
+#    product: /myproduct/**
+#  ignored-patterns:
+#    - /**/product/listForOrder    
